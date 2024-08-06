@@ -9,8 +9,6 @@ public interface UserDao {
 
     List<User> listUsers();
 
-    void cleanUsersTable();
-
     void dropUsersTable();
 
     User getUserByCar(String model, int series);

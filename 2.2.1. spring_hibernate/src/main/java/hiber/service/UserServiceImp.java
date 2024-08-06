@@ -28,12 +28,6 @@ public class UserServiceImp implements UserService {
 
     @Transactional
     @Override
-    public void cleanUsersTable() {
-        userDao.cleanUsersTable();
-    }
-
-    @Transactional
-    @Override
     public void dropUsersTable() {
         userDao.dropUsersTable();
     }
